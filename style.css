@@ -1,0 +1,54 @@
+/*
+ * Globals
+ *
+/* Custom default button */
+.btn-light,
+.btn-light:hover,
+.btn-light:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  color: black;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: grey;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: black;
+  border-bottom-color: grey;
+}
+
+
+svg{
+  width: 2rem;
+  height: auto;
+}
+
+.container_principal{
+  height: 25rem;
+}
+
+footer{
+  height: 10rem;
+}
